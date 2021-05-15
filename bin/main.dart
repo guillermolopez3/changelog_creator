@@ -5,7 +5,7 @@ final changelogFile = File('$currentDir/CHANGELOG.md');
 
 void main(List<String> arguments) async{
 
-  stdout.writeln('--BIENVENIDO A CHANGELOG CREATOR--');
+  stdout.writeln('--BIENVENIDO A CHANGELOG CREATOR!--');
   createFileChangeLog();
 }
 
@@ -22,3 +22,4 @@ void createFileChangeLog() async{
     }
   }
 }
+
